@@ -1,0 +1,1 @@
+nextNode->data == curr->data

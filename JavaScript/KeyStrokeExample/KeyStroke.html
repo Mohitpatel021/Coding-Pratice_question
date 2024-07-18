@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #rotating-element {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            transform-origin: center;
+            transition: transform 0.5s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <h4>press<b> B,Q,E,A,C,R</b> key to perform action.........</h4>
+    <p>Press <b>a</b> to play song.... </p>
+    <p>Press <b>e</b> to show emoji.... </p>
+    <p>Press <b>q</b> to show quote.... </p>
+    <p>Press <b>b</b> to change background color.... </p>
+    <p id="content">Press "c" to change this text.</p>
+    <div id="divcontainer" style="font-size: 100px; background-color: aliceblue ;"></div>
+
+    <div id="rotating-element"></div>
+    <p>Press "r" to rotate the element.</p>
+    <script src="KeyStroke.js"></script>
+</body>
+
+</html>

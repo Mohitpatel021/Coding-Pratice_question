@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Table without using <code>Rowspan()</code>  and <code>Colspan()</code>  attribute -:</h3>
+    <table border="1">
+      <thead>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Quantity</th>
+        <th>Quality</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Wheat</td>
+          <td>Good</td>
+          <td>200 Bags</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Rice</td>
+          <td>Good</td>
+          <td>250 Bags</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Sugar</td>
+          <td>Good</td>
+          <td>200 Bags</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Paddy</td>
+          <td>Good</td>
+          <td>300 Bags</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Creating new table and use the ROWSPAN and COLSPAN attributes -->
+    <br />
+    <br />
+    <h3>Table using <code>Rowspan()</code>  and <code>Colspan()</code>  attribute -:</h3>
+   
+    <table border="1">
+      <thead>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Quantity</th>
+        <th>Quality</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Wheat</td>
+          <td colspan="2">Good</td>
+          <!-- <td>200 Bags</td> -->
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Rice</td>
+          <td>Good</td>
+          <td rowspan="3">250 Bags</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Sugar</td>
+          <td>Good</td>
+          <!-- <td>200 Bags</td> -->
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Paddy</td>
+          <td>Good</td>
+          <!-- <td>300 Bags</td> -->
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

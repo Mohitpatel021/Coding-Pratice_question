@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend><h3>Please select your gender:-</h3></legend>
+        <input type="radio" id="male" value="male" name="Gender" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" value="female" name="Gender" />
+        <label for="female">female</label><br />
+        <input type="radio" id="other" value="ohter" name="Gender" />
+        <label for="other">other</label><br /><br />
+        <input
+          type="submit"
+          onclick="alert('Data sucessfully Uploaded!!!!')"
+          value="Submit"
+        />
+        <input type="reset" />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Select City:-</legend>
+        <label for="Drop down"> your city:-</label><br /><br />
+        <select name="drop down" class="drop down">
+          <option value="1">Select</option>
+          <option value="2">Jabalpur</option>
+          <option value="3">katini</option>
+          <option value="4">Maharastra</option>
+          <option value="5">mumbai</option>
+          <input type="reset" />
+        </select>
+      </fieldset>
+
+      <br />
+      <br />
+      <fieldset>
+        <legend>Select your native language:-</legend>
+        <input type="checkbox" class="check-box" name="check-box" />
+        <label for="Check-box">English</label><br />
+        <input type="checkbox" class="check-box" name="check-box" />
+        <label for="Check-box">Hindi</label><br />
+        <input type="checkbox" class="check-box" name="check-box" />
+        <label for="Check-box">Tamil</label> <br />
+        <input type="submit" onclick="alert('Hey there!!!!!')" value="submit" />
+        <input type="reset" />
+      </fieldset>
+      <fieldset>
+        <label for="appt">Select your birthdate and time:-</label>
+        <input type="datetime-local" class="appt" name="appt" />
+      </fieldset>
+      <fieldset>
+        <label for="tme">select time:-</label>
+        <input type="time" class="tme" name="tme" />
+      </fieldset>
+      <fieldset>
+        <label for="colour">select fav. color:-</label>
+        <input type="color" class="colour" name="colour" value="#ff0000" />
+        <input type="submit" />
+      </fieldset>
+      <fieldset>
+        <label for="email">enter your email:-</label>
+        <input type="email" class="email" name="email" />
+      </fieldset>
+      <fieldset>
+        <label for="file">Insert your file:-</label>
+        <input type="file" class="file" name="file" />
+      </fieldset>
+      <fieldset>
+        <label for="picture"></label>
+        <input
+          type="image"
+          src="image12.jpg"
+          alt="submit"
+          class="Picture"
+          name="Picture"
+          width="30px"
+          height="30px"
+        />
+      </fieldset>
+
+      <fieldset>
+        <label for="birthdaymonth">your birthmonth:-</label>
+        <input type="month" class="birthdaymonth" name="birthdaymonth" />
+      </fieldset>
+      <fieldset>
+        <label for="num">number field:-</label>
+        <input type="number" class="num" name="num" />
+      </fieldset>
+      <fieldset>
+        <label for="range">range:-</label>
+        <input type="range" class="range" name="range" step="1" />
+        <!-- step="1"===This is used for how many step it would accept while sliding the slider -->
+      </fieldset>
+      <fieldset>
+        <label for="searchbox">search here:-</label>
+        <input type="search" class="searchbox" name="searchbox" />
+      </fieldset>
+      <fieldset>
+        <label for="telephone">telephone -</label>
+        <input
+          type="tel"
+          class="telephone"
+          name="telephone"
+          placeholder="123-456-789"
+          pattern="[0-9]{4}-[0-9]{2}-[0-9]{4}"
+          required
+        />
+      </fieldset>
+      <fieldset>
+        <label for="urlbox">url box:-</label>
+        <input type="url" class="urlbox" name="urlbox" />
+      </fieldset>
+      <fieldset>
+        <label for="week">enter week here:-</label>
+        <input type="week" class="week" name="week" />
+      </fieldset>
+      <fieldset>
+        <label for="textarea">Text Area:-</label><br />
+        <textarea name="textarea" id="textarea" cols="10" rows="10"></textarea>
+      </fieldset>
+    </form>
+  </body>
+</html>

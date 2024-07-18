@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms practice</title>
+  </head>
+  <body>
+    <h2>Novell Services Login</h2>
+    <label for="Username">username :</label>
+    <input type="text" class="Username" name="username" />
+    <br />
+    <br />
+    <label for="Password">Password :</label>
+    <input type="password" class="password" name="password" />
+    <br />
+    <br />
+
+    <label for="City">City of Employment :</label>
+    <input type="text" class="City" name="city" />
+    <br />
+    <br />
+    <label for="Drop-down">Web server:</label>
+    <select name="Drop-down" id="Drop-down">
+      <option value="Default">--Choose a server--</option>
+      <option value="Server 1">server 1</option>
+      <option value="server 2">server 2</option>
+      <option value="server 3">server 3</option>
+    </select>
+    <br /><br />
+
+    <fieldset>
+      <legend>Please specify Your Role:</legend>
+      <input type="radio" name="role" id="Role of the employee" />Admin <br />
+      <input type="radio" name="role" id="Role of the employee" />Engineer
+      <br />
+      <input type="radio" name="role" id="Role of the employee" />Manager
+      <br />
+      <input type="radio" name="role" id="Role of the employee" />Guest <br />
+    </fieldset>
+    <br /><br />
+    <fieldset>
+      <legend>Single Sign-on to the following:</legend>
+      <input type="checkbox" name="sign-on option" />Mail <br />
+      <input type="checkbox" name="sign-on option" />Payroll <br />
+      <input type="checkbox" name="sign-on option" />Self-service <br />
+    </fieldset>
+    <input type="submit" value="Login" />
+    <input type="Submit" value="Submit" />
+  </body>
+</html>
